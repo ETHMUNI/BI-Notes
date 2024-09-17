@@ -18,6 +18,7 @@ Qualitative: Oplistning af lande (f.eks. USA, Danmark, Japan).
 
 ## Datakvalitet
 **Betydning:** Dårlige data giver dårlige resultater ("garbage in, garbage out").
+
 **Faktorer:**
   * **Volumen:** Jo flere data, jo større er chancen for at opdage mønstre og træffe præcise beslutninger. Et stort datagrundlag gør det lettere at identificere trends og reducere tilfældige fejl.
     * Eksempel: Hvis du kun har data fra én dags salg i en butik, kan det være svært at se et mønster. Hvis du har data fra hele året, bliver mønstrene tydeligere.
@@ -48,7 +49,7 @@ Qualitative: Oplistning af lande (f.eks. USA, Danmark, Japan).
 **Metoder:**
 * Udfyld med gennemsnittet eller medianen.
 * Erstat med en omtrentlig værdi.
-* 
+
 **Eksempel:** Hvis temperaturen for en dag mangler i et vejrdata-sæt, kan du udfylde den manglende værdi med gennemsnitstemperaturen for måneden.
 
 ## Outliers (Atypiske Værdier)
