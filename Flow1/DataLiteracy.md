@@ -1,5 +1,6 @@
 ## Data Literacy (Datalæsefærdigheder)
 **Definition:** Evnen til at udforske, forstå og kommunikere med data.
+
 **Eksempel:** Du skal analysere salgsdata fra en butik. Data literacy betyder, at du ved, hvordan du fortolker dataene og forklarer, hvad de betyder.
 
 ## Typer af Data
@@ -25,6 +26,7 @@ Qualitative: Oplistning af lande (f.eks. USA, Danmark, Japan).
 
 ## Dataindsamling og Forbehandling
 **Data Wrangling:** Omformning af rå data til et brugbart format. (JSON, XML, Excel, CSV osv.)
+
 **Eksempel:** indsamlling af salgsdata fra flere forskellige kilder: en CSV-fil fra en leverandør, JSON-data fra en webbutik og Excel-ark fra butikspersonalet. Hver kilde har en anden struktur. Data Wrangling vil være processen, hvor du omformer, renser og kombinerer disse data i et konsistent format, så du kan analysere dem samlet, f.eks. ved at standardisere valutaenheder eller formatere datoer på samme måde.
 
 ## Data Cleaning
@@ -46,15 +48,19 @@ Qualitative: Oplistning af lande (f.eks. USA, Danmark, Japan).
 **Metoder:**
 * Udfyld med gennemsnittet eller medianen.
 * Erstat med en omtrentlig værdi.
+* 
 **Eksempel:** Hvis temperaturen for en dag mangler i et vejrdata-sæt, kan du udfylde den manglende værdi med gennemsnitstemperaturen for måneden.
 
 ## Outliers (Atypiske Værdier)
 **Definition:** Datapunkter, der er langt fra resten. Du skal vuderer om outlieren er en værdi er en reel observation eller en fejl.
+
 **Hvordan håndteres de:** Identificer dem og beslut, om de skal fjernes eller beholdes baseret på deres indvirkning på analysen.
+
 **Eksempel:** Hvis en butik rapporterer 10 millioner kr. i salg på én dag, hvor gennemsnittet er 100.000 kr., kan det være en outlier på grund af en rapporteringsfejl.
 
 ## Data Restructuring
 **Pivoting:** Omformning af kolonner til rækker for at organisere dataene bedre.
+
 **Eksempel:** Hvis du har salgsdata efter produkt og måned, kan du pivotere dataene, så hver måned bliver en separat kolonne til sammenligning
 
 
