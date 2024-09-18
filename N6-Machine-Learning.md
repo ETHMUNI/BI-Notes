@@ -47,7 +47,7 @@ Link: https://cphbusiness.mrooms.net/pluginfile.php/1147613/mod_book/chapter/384
 * Saml de relevante data fra forskellige kilder.
 
 **Data Pre-processing (forbehandling):**
-Rens og forbered dataene, så de er klar til modellering. Det kan inkludere behandling af manglende data, fjernelse af outliers osv.
+* Rens og forbered dataene, så de er klar til modellering. Det kan inkludere behandling af manglende data, fjernelse af outliers osv.
 
 **Training (træning):**
 * Træn modellen på en del af dataene (train-sættet) for at identificere mønstre og lære af dem.
