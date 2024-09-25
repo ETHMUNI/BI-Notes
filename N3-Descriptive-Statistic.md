@@ -3,23 +3,32 @@ Link: https://cphbusiness.mrooms.net/pluginfile.php/1147608/mod_book/chapter/376
 ## Frequency Distribution
 
 **Discrete values:** Adskilte og specifikke værdier (f.eks. 3 eller 6 børn, men ikke 4.5).
+
 **Continuous values:** Uafbrudte værdier (f.eks. responstid i sekunder: 1.6 sek eller 1.642 sek).
+
 **Frequency table:** Viser, hvor ofte en bestemt værdi forekommer i observationerne.
+
 **Normal distribution:** Symmetrisk fordeling af data, hvor de fleste værdier er tæt på midten.
 
 
 ## Measures of Central Tendency
 
 **Mean (gennemsnit):** Den gennemsnitlige værdi af datasættet.
+
 **Trimmed mean:** Fjerner outliers, før gennemsnittet beregnes.
+
 **Weighted mean:** Visse datapunkter vægter mere i beregningen.
+
 **Median:** Den midterste værdi, når dataene er sorteret.
+
 **Mode:** Den hyppigst forekommende værdi i datasættet.
 
 ## Measures of Variability
 
 **Range:** Forskellen mellem de højeste og laveste værdier i datasættet.
+
 **Variance:** Gennemsnittet af kvadraterne af afvigelserne fra gennemsnittet.
+
 **Standard deviation (S):** Mål for, hvor meget dataene spreder sig fra gennemsnittet.
 
 ## Box Plot
