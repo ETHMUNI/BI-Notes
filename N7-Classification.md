@@ -3,6 +3,7 @@ Link https://cphbusiness.mrooms.net/pluginfile.php/1147613/mod_book/chapter/3854
 ## Classification vs Regression
 
 **Classification:** En maskinlæringsopgave, hvor data opdeles i foruddefinerede klasser. Bruges til at forudsige, hvilken klasse ny data tilhører.
+
 **Regression:** Skaber en model, der bedst passer til dataene, ofte til at forudsige kontinuerlige værdier.
 
 **Eksempler på classification:**
