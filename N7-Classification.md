@@ -34,6 +34,7 @@ Link https://cphbusiness.mrooms.net/pluginfile.php/1147613/mod_book/chapter/3854
 * Anvendes i klassifikation, hvor vi beregner sandsynlighederne for forskellige klasser og vælger den mest sandsynlige klasse.
   * Fordele: Hurtig og effektiv, særligt velegnet til flerklasse-forudsigelser.
   * Ulemper: Forudsætter uafhængige prædiktorer, hvilket kan være urealistisk i virkelige data.
+    * Eksempel på ulempe: Hvis man klassificerer emails som spam eller ikke-spam, kan visse ord ofte forekomme sammen (f.eks. "gratis" og          "tilbud"). Hvis Naïve Bayes-algoritmen antager, at disse ord er uafhængige, kan det føre til fejl i klassificeringen, fordi algoritmen       ikke tager højde for deres korrelation
  
 ## Validation of Predictions
 
