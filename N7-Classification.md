@@ -25,7 +25,7 @@ Link https://cphbusiness.mrooms.net/pluginfile.php/1147613/mod_book/chapter/3854
 
 * Algoritmen bygger et træ ved at vælge attributter med maksimal information gain.
 * Trinnene involverer at beregne entropi, opdele datasættet og vælge de mest nyttige attributter til at skabe grene i træet.
-  * Entropi i en klassifikation: Forestil dig, at du har et datasæt, hvor du skal klassificere elementer i forskellige kategorier. Hvis alle     elementer tilhører én kategori, er entropien lav, da der er meget lidt usikkerhed. Men hvis elementerne er ligeligt fordelt på tværs af      mange kategorier, er entropien høj, fordi der er stor usikkerhed om, hvilken kategori et nyt element vil tilhøre
+  * Entropi i en klassifikation: du har et datasæt, hvor du skal klassificere elementer i forskellige kategorier. Hvis alle     elementer tilhører én kategori, er entropien lav, da der er meget lidt usikkerhed. Men hvis elementerne er ligeligt fordelt på tværs af      mange kategorier, er entropien høj, fordi der er stor usikkerhed om, hvilken kategori et nyt element vil tilhøre
 * Træet bruges derefter til at forudsige resultater baseret på nye data.
 
 ## Naïve Bayes Algorithm
