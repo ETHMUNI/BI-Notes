@@ -2,6 +2,10 @@
 In this project, we analyzed datasets regarding greenhouse gas emissions from cities in 2016 and 2017. 
 Our goal was to understand trends and identify potential correlations between variables such as population, GDP, and temperature. We applied various data analysis and machine learning methods, including linear regression, multiple regression, polynomial regression, and clustering techniques like KMeans clustering.
 
+**Garbage in, Garbage out**
+
+* the concept of "Garbage in, Garbage out" (GIGO) strongly applies in our project. Although we cleaned the data by filling in missing values using the mean and mode, this basic approach likely introduced inaccuracies. These data issues led to suboptimal results in our models, such as the low R² values in both linear and multiple regression. This directly reflects how the quality of input data affects the overall outcomes, making GIGO a key factor in our results
+
 **Data Collection and Preprocessing:** 
 The datasets we used had a significant amount of missing data and varying data quality, so we had to clean and fill in the missing values. 
 We used the mean for numerical values and the mode for categorical variables. This was an effective approach, but here is an area where improvements could have been made:
