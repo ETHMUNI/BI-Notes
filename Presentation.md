@@ -1,4 +1,5 @@
-**Introduction:**
+## **Introduction:**
+
 In this project, we analyzed datasets regarding greenhouse gas emissions from cities in 2016 and 2017. 
 Our goal was to understand trends and identify potential correlations between variables such as population, GDP, and temperature. We applied various data analysis and machine learning methods, including linear regression, multiple regression, polynomial regression, and clustering techniques like KMeans clustering.
 
