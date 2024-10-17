@@ -75,9 +75,10 @@ To address the issues we encountered, we could consider the following improvemen
 * Although using 2 clusters in KMeans was a reasonable choice based on our analysis and prevented negative silhouette values, there is still room for improvement in both the selection of features and the evaluation of the cluster structure. Future improvements in these areas would help us achieve a more nuanced understanding of how cities group together in terms of their environmental and economic impact.
 
 
-**Why Classification Makes Sense:** 
+## **Why Classification Makes Sense:** 
 
 It would also make sense to apply classification in this project, as it could help categorize cities based on their emissions levels (e.g., high, medium, low) or GDP per capita. By using features like population, GDP, and total emissions, we can predict which class a city might fall into. Classification techniques such as decision trees or Naïve Bayes could further help distinguish between cities that meet or exceed environmental targets, aiding in better understanding city performance regarding emissions.
 
-**Conclusion:** 
+## **Overall Conclusion:** 
+
 Our analysis has provided insights into how population and GDP impact cities' greenhouse gas emissions, but the accuracy of our models has been limited. We identified areas where more comprehensive data and alternative modeling techniques could improve the results. If we were to repeat the project, we would focus on including more relevant factors and employing more advanced methods to handle missing data and prevent overfitting.
