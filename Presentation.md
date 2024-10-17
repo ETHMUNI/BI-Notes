@@ -8,9 +8,7 @@ Our goal was to understand trends and identify potential correlations between va
 
 **Data Collection and Preprocessing:** 
 The datasets we used had a significant amount of missing data and varying data quality, so we had to clean and fill in the missing values. 
-We used the mean for numerical values and the mode for categorical variables. This was an effective approach, but here is an area where improvements could have been made:
-
-* Improvement Suggestion: Instead of simply using the mean or mode, we could have implemented more advanced techniques, such as KNN imputation or Expectation Maximization, which take into account the context of the missing data.
+We used the mean for numerical values and the mode for categorical variables. This was an effective approach, but  maybe could have been done better with other methods.
 
 **Data Analysis:** 
 We began with a basic analysis of the datasets. Here are some key points:
@@ -25,7 +23,8 @@ While we identified some interesting correlations, there were also several chall
 Categorical variable “C40”: We found a negative correlation between this variable and population, suggesting that cities in the C40 initiative generally have lower emissions per capita. However, this conclusion is somewhat limited due to missing data in our dataset.
 
 * Improvement Suggestion: It would have been beneficial to include more cities participating in C40 to achieve a more accurate analysis. We could have searched for more comprehensive datasets or alternative sources.
-Modeling:
+
+## **Modeling:**
 
 **Linear Regression:** 
 
