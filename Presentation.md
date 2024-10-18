@@ -14,7 +14,7 @@ We worked with two datasets containing emissions data for various cities globall
 
 * the concept of "Garbage in, Garbage out" (GIGO) strongly applies in our project. Although we cleaned the data by filling in missing values using the mean and mode, this basic approach likely introduced inaccuracies. These data issues led to suboptimal results in our models, such as the low R² values in both linear and multiple regression. This directly reflects how the quality of input data affects the overall outcomes, making GIGO a key factor in our results
 
-**Data Analysis:** 
+## **Data Analysis:** 
 We began with a basic analysis of the datasets. Here are some key points:
 
 We explored the correlation between variables like population and total CO2 emissions, where we found a correlation of 0.73. This indicated that larger cities tend to have higher emissions, which makes sense.
