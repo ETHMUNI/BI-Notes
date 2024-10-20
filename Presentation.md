@@ -28,7 +28,9 @@ Categorical variable “C40”: The negative correlation suggests that larger ci
 
 * To determine the optimal number of clusters (K), we tested various values of K using both the Elbow method and Silhouette score:
 
-* **The Elbow method** In the graph, we see that the distortion decreases rapidly from K=2 to K=4, but after that, it begins to decrease more slowly. This suggests that K=4 could be a good choice. However it only takes distortions into consideration and not for ex. Cluster quality and shape
+* First we used normalization min/max scaler. 
+
+* Then we can look at **The Elbow method** In the graph, we see that the distortion decreases rapidly from K=2 to K=4, but after that, it begins to decrease more slowly. This suggests that K=4 could be a good choice. However it only takes distortions into consideration and not for ex. Cluster quality and shape
 
 * **Silhouette score** However, when we evaluated the Silhouette score, we noticed that while 3 clusters gave the highest silhouette score, it also produced negative values for some data points, indicating that certain cities were incorrectly assigned to the wrong cluster.
 
@@ -38,15 +40,7 @@ Categorical variable “C40”: The negative correlation suggests that larger ci
 
 * Although 2 clusters was the best choice based on our analysis, one critical point must be addressed: the clusters were unevenly sized. This imbalance suggests that the features we chose (emissions, population, GDP, and temperature) may not have been optimal for creating well-distributed clusters.
   
-* Critique of feature selection: However, the uneven cluster sizes indicate that certain cities may have been grouped together with very different cities. This could be due to skewed data or the over-dominance of one or two features (e.g., population or emissions levels). It’s also possible that including additional variables like energy consumption or transportation habits could have improved the clustering outcome or used normalization like Z-score normalization.
-
-### Areas for Improvement:
-
-To address the issues we encountered, we could consider the following improvements:
-
-* **Experiment with additional features:** Adding variables such as energy sources, transportation data, or industrial activities could help achieve better-distributed clusters and offer more insightful groupings.
-  
-* **Feature weighting and normalization:** We could explore the effect of applying different weights to certain features to avoid having one feature (like population) dominate the clustering results.
+* Critique of feature selection: However, the uneven cluster sizes indicate that certain cities may have been grouped together with very different cities. This could be due to skewed data or the over-dominance of one or two features (e.g., population or emissions levels). It’s also possible that including additional variables like energy consumption or transportation habits could have improved the clustering outcome.
 
 ## **Modeling:**
 
@@ -82,7 +76,7 @@ We used both population and GDP as independent variables, but the model performe
 
 **Polynomial Regression:** 
 
-We applied polynomial regression to capture non-linear relationships between population and emissions, which yielded an R² of 0.56. However, we identified signs of overfitting, suggesting that the model might be too complex and fitting noise rather than meaningful patterns.
+We applied polynomial regression to capture non-linear relationships between population and emissions, which yielded an R² of 0.56. However, we identified signs of overfitting.
 
 **Signs of overfitting:** The curve is bending sharply to follow some data points, which could be an indication that the model is focusing too much on specific points instead of generalizing well
 
